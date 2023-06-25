@@ -1,0 +1,167 @@
+* {
+ margin: 0; 
+ padding:0; 
+ box-sizing: border-box;
+ 
+ 
+}
+
+body {
+ background-image: url("bg.jpg");
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+
+}
+
+
+
+
+.navbar {
+    height:90px;
+    width:100%;
+    background-color:#baac94;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   
+   
+
+
+}
+
+.logo {
+    background-color:#ed776d;
+    height:90px;
+    width:300px;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    cursor: pointer;   
+}
+
+span {
+ font-family: "Brush Script MT", cursive;
+ font-size: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display:flex;
+    padding: 0 5%;
+    font-family: "Brush Script MT", cursive;
+}
+.navbar ul li {
+    padding: 10px 30px;
+    position: relative;
+    
+  }
+
+  .navbar ul li a {
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+    transition:all 0.5s;
+    padding:10px;
+  }
+  .navbar ul li a:hover {
+    color: whitesmoke;
+    background-color:burlywood;
+    padding:10px;
+    border-radius: 20px;
+    border: 1px solid black;
+  }
+  
+  .navbar .fa {
+   margin-right:8px;
+
+  }
+
+.submenu {
+  display:none;
+}
+.navbar ul li:hover .submenu {
+  display:block;
+  position:absolute;
+  margin-top:10px;
+  margin-left:-10px;
+  background-color:#baac94;
+  border: 2px solid black;
+  
+
+
+  }
+  
+  .navbar ul li:hover .submenu ul {
+    display:block;
+    margin:5px;
+
+  }
+   
+
+
+  .navbar ul li:hover .submenu ul li {
+    width: 130px;
+    padding:5px; 
+  }
+
+  .main {
+    background-color:antiquewhite;
+    height: 260px;
+    width: 600px;
+    font-size: 7px;
+    margin-left:450px;
+    margin-top: 140px;
+    padding:40px 20px;
+    border: 1px solid #b4a094;
+    border-radius: 15px;
+    box-shadow: inset 5px -5px 5px 5px #f4d3b4;
+
+
+  }
+
+
+.image1 {
+float: left;
+margin-left:70px;
+margin-top:80px;
+
+}
+
+.content2 {
+  background:rgba(5, 4, 4, 0.544);
+  padding:40px;
+  color:white;
+}
+
+.about-me{
+  background:rgba(5, 4, 4, 0.544);
+  height: 100%;
+  width: 100%;
+}
+.collage {
+  margin-top:100px;
+  margin-left:220px;
+  margin-right:720px;
+  border-right:10px solid white;
+  padding-right:0;
+
+}
+ 
+.self-info{
+  color:white;
+  absolute:position;
+  margin-left:600px;
+  margin-top:-320px;
+}
+
+.self-info h2 {
+margin-left:200px;
+letter-spacing: 2px;
+
+}
